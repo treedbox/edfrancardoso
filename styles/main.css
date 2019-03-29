@@ -1,0 +1,27 @@
+/* CSS variables */
+:root{
+  --primary:  #fd0;
+  --shadow:  0 1px 5px rgba(0,0,0,.5);
+}
+
+/* Every elements */
+*,
+*:before,
+*:after{
+  box-sizing: border-box;
+}
+
+html,
+body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+html{
+  touch-action: manipulation;
+}
+body{
+  /* background-color: #373435; */
+  background-color: #FFF;
+  perspective:  100px;
+}
